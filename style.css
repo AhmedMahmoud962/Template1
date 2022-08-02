@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* =============
+  1-header
+  ==============*/
+
+a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(156, 153, 153);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    background-color: #009688!important;
+}
+
+.parent-link {
+    background-color: black;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 420px;
+    visibility: hidden;
+}
+
+.drop:hover+.parent-link {
+    visibility: visible;
+}
+
+
+/* =============
+  2-Image
+  ==============*/
+
+.image {
+    width: 100%;
+    height: 400px;
+}
+
+a {
+    color: white;
+    background: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.learn {
+    border: 2px solid black;
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.learn:hover {
+    background-color: #009688!important;
+    border: #009688;
+}
+
+
+/* =============
+  2-our team
+  ==============*/
+
+h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 10px 0;
+    text-align: center!important;
+    position: relative;
+    bottom: 15px;
+}
+
+.meet {
+    text-align: center!important;
+}
+
+.Ahmed {
+    border-radius: 55%;
+}
+
+.name {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.division {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* =============
+  3-our work
+ 
+ ==============*/
+
+.com {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333333 !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-Work {
+    color: white;
+    width: 23%;
+    line-height: 23px;
+}
+
+.white {
+    background-color: white;
+    height: 360px;
+    width: 23%;
+    line-height: 30px;
+}
+
+.white h3,
+.white p {
+    font-family: 'Cairo', sans-serif !important;
+    padding-left: 12px;
+}
+
+.snow {
+    width: 100%;
+    height: 160px;
+}
+
+.our-Work h2 {
+    margin-bottom: 20px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.our-Work p {
+    margin-left: 10px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.AAA {
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+zzz:hover {
+    color: blue;
+    margin-left: 50%;
+}
+
+
+/* =============
+  4-pricing
+  ==============*/
+
+.bob {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.basic {
+    margin-top: 50px;
+    width: 31%;
+}
+
+.basic:hover {
+    box-shadow: 5px 5px 15px gray;
+}
+
+.basic h4 {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.basic p {
+    text-align: center;
+    border: .5px solid rgb(211, 205, 205);
+    padding: 18px 0;
+}
+
+.pro h4 {
+    background-color: #666666;
+}
+
+.sign {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: teal;
+    margin-left: 38%;
+    width: 70px;
+    height: 10px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 15px 20px;
+}
+
+
+/* =============
+ 6-footer
+  ==============*/
+
+div .lights {
+    margin-top: 70px;
+    width: 100%;
+    min-height: 500px;
+}
+
+#footer {
+    background: #009688;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px;
+    /* margin-bottom: 0; */
+}
